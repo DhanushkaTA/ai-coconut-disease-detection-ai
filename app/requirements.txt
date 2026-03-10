@@ -1,0 +1,10 @@
+# TensorFlow & Keras (use 2.14+ for best compatibility)
+# If you get "quantization_config" error, upgrade: pip install --upgrade tensorflow
+tensorflow>=2.10.0  # Recommended: 2.14.0+
+numpy>=1.21.0
+pillow>=9.0.0
+matplotlib>=3.5.0
+scikit-learn>=1.0.0
+opencv-python>=4.6.0
+tqdm>=4.62.0
+h5py>=3.0.0  # For model loading compatibility
